@@ -1,6 +1,2 @@
-n = int(input())
-for i in range(1, n + 1):
-    for j in range(1, n + 1):
-        print(i * j, end=" ")
-    print()
+[x ** 2 for x in range(a, b + 1)]
 
